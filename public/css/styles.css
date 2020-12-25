@@ -1,0 +1,112 @@
+
+.heading {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.home-heading {
+    margin-top: 2%;
+}
+
+.content-container, .home-heading {
+    border: 1px solid black; 
+    padding: 2.7%;
+    border-radius: 15px;
+    /* transition: all 0.5s ease; */
+    margin: 3%;
+}  
+
+.content-container:hover, .home-heading:hover {
+    cursor: pointer;
+    /* transform: scale(1.02); */
+    box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+
+.content-header {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    margin-top: 3px;
+    /* transition: all 0.5s ease-out */
+}
+
+.navbar-brand:hover {
+    font-size: 2.8rem;
+    cursor: pointer;
+}
+
+.nav-item {
+    font-size: 1.2rem;
+    padding-left: 10px;
+    /* transition: all 0.5s ease-in-out */
+}
+
+.navbar {
+    border: 0;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 12px;
+    letter-spacing: 5px;    
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* position: fixed; */
+    width: 100%;
+}
+
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.footer-padding {
+	padding-bottom: 15%;
+}
+
+.footer {
+	/* position: absolute; */
+	text-align: center;
+	bottom: 0%;
+	height: 60px;
+    background-color: #17213f;
+    margin: 3.5% 3%;
+    border-radius: 15px;
+}
+
+.footer p {
+    padding-top: 2%;
+	font-size: 1.5rem;
+    color: #fff;
+}
+
+.mb-3 {
+    margin-top: 2%;
+    max-width: 100%;
+}
+
+.btn {
+    margin-top: 2.5%;
+}
+
+.form-container {
+    text-align: center;
+}
+
+.text-area {
+    resize: none;
+}
+

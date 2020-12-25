@@ -1,0 +1,22 @@
+<%- include('partials/header.ejs'); -%>
+<%let test = data %>
+
+<div class="home-heading">
+    <h1 class="heading"><%= title %></h1>
+    <p><%= homePara %></p>
+</div>
+
+<%test.forEach( function(e) {%>
+    <div class = "content-container">
+        <h1 class="content-header"><%= e.title %></h1>
+        <%if (e.content.length > 100) {%>
+            <p class="content-paragraph"><%= `${e.content.substring(0, 150)} ...` %></p><a href="/post/<%=e.title%>">Read more</a>
+        <%} else {%>
+            <p class="content-paragraph"><%= `${e.content}` %></p>
+        <%}  %> 
+    </div>
+    
+    
+<%})%>
+
+<%- include('partials/footer.ejs'); -%>
